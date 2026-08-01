@@ -1,8 +1,26 @@
 aid: plantshopme
 name: PlantShop.me
-description: PlantShop.me is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: PlantShop.me (operated by Lamento Trading LLC, Dubai) is the largest online
+  plant store in the Middle East, selling indoor and outdoor plants, pots and planters,
+  seeds, terrariums, fertilizers and plant-care accessories with UAE-wide delivery and
+  localized shipping to Saudi Arabia, Bahrain and Kuwait. It offers cash on delivery,
+  same-week delivery, and free plant-care support from a real team. Surfaced as a portfolio
+  company of 500 Global and added to the API Evangelist network. The company publishes no
+  public developer API; its machine-readable surface is a first-party /llms.txt AI overview,
+  an AI-crawler-friendly robots.txt, and schema.org structured data on product pages.
 url: https://raw.githubusercontent.com/api-evangelist/plantshopme/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.plantshop.me/assets/images/ps-logo-png.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +29,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- E-commerce
+- Retail
+- Plants
+- Gardening
+- Home & Garden
+- United Arab Emirates
+- Middle East
+- LLMsTxt
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,20 @@ maintainers:
 common:
 - type: Website
   url: https://plantshop.me
+- type: About
+  url: https://www.plantshop.me/ae-en/about
+- type: Support
+  url: https://www.plantshop.me/ae-en/contact
+- type: Blog
+  url: https://www.plantshop.me/ae-en/blog
+- type: TermsOfService
+  url: https://www.plantshop.me/ae-en/terms-conditions
+- type: LLMsTxt
+  url: llms/plantshopme-llms.txt
+- type: DomainSecurity
+  url: security/plantshopme-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
