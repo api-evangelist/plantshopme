@@ -9,6 +9,17 @@ description: PlantShop.me (operated by Lamento Trading LLC, Dubai) is the larges
   public developer API; its machine-readable surface is a first-party /llms.txt AI overview,
   an AI-crawler-friendly robots.txt, and schema.org structured data on product pages.
 url: https://raw.githubusercontent.com/api-evangelist/plantshopme/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
